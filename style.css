@@ -97,6 +97,7 @@ header img {
 }
 
 .banner-imagem img{
+    background-color: #d0d0d0;
     height: 380px;
     width: 100%;
 }
