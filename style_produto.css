@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+h1, h2, h3 {
+    font-family: 'Krona One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+header {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-bottom: 3px solid #1a2a6c;
+    padding: 10px 40px;
+}
+
+header img {
+    width: 130px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.menu a {
+    font-family: 'Krona One', sans-serif;
+    font-size: 0.75rem;
+    color: #1a2a6c;
+}
+
+.menu a:hover {
+    color: #cc1f1f;
+}
+
+/*BOTÕES*/
+.botao-vermelho {
+    display: inline-block;
+    background-color: #cc1f1f;
+    color: #ffffff;
+    font-family: 'Krona One', sans-serif;
+    font-size: 0.85rem;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/*PRODUTO: IMAGEM | INFORMACOES*/
+.produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+    padding: 60px 40px;
+}
+
+.imagem-produto-principal {
+    background-color: #d0d0d0;
+    min-height: 525px;
+}
+
+.imagem-produto-principal img {
+    width: 100%;
+    height: 100%;
+    min-height: 525px;
+    object-fit: cover;
+}
+
+/*INFORMACOES DO PRODUTO*/
+.info-produto {
+    background-color: #1a2a6c;
+    color: #ffffff;
+    padding: 30px;
+    min-height: 525px;
+}
+
+.info-produto h1 {
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+}
+
+.info-produto .marca,
+.info-produto .categoria {
+    font-size: 0.9rem;
+    color: #c8d4f0;
+    margin-bottom: 6px;
+}
+
+.info-produto .preco {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #cc1f1f;
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 3px;
+    margin-top: 14px;
+    margin-bottom: 22px;
+}
+
+.descricao,
+.especificacoes {
+    margin-bottom: 22px;
+}
+
+.descricao h2,
+.especificacoes h2 {
+    font-size: 1rem;
+    color: #cc1f1f;
+    margin-bottom: 10px;
+}
+
+.descricao p,
+.especificacoes p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #111111;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 24px 40px;
+}
+
+footer p {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+footer p:first-child {
+    font-family: 'Krona One', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+}
+

@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+h1, h2, h3 {
+    font-family: 'Krona One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+header {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-bottom: 3px solid #1a2a6c;
+    padding: 10px 40px;
+}
+
+header img {
+    width: 130px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.menu a {
+    font-family: 'Krona One', sans-serif;
+    font-size: 0.75rem;
+    color: #1a2a6c;
+}
+
+.menu a:hover {
+    color: #cc1f1f;
+}
+
+/*BOTÕES*/
+.botao-vermelho {
+    display: inline-block;
+    background-color: #cc1f1f;
+    color: #ffffff;
+    font-family: 'Krona One', sans-serif;
+    font-size: 0.85rem;
+    padding: 12px 28px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.botao-azul {
+    display: inline-block;
+    background-color: #1a2a6c;
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/*SECAO 1 - TEXTO | IMAGEM (proporcao 3fr / 2fr, igual ao wireframe)*/
+.secao-um {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 55px;
+    align-items: stretch;
+    padding: 50px 40px;
+}
+
+.texto-um {
+    background-color: #1a2a6c;
+    color: #ffffff;
+    padding: 30px;
+    min-height: 460px;
+}
+
+.texto-um h1 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.texto-um h2 {
+    font-size: 1rem;
+    color: #cc1f1f;
+    margin-bottom: 16px;
+}
+
+.texto-um p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.imagem-um {
+    background-color: #d0d0d0;
+    min-height: 460px;
+}
+
+.imagem-um img {
+    width: 100%;
+    height: 100%;
+    min-height: 460px;
+    object-fit: cover;
+}
+
+/*SECAO 2 - IMAGEM | TEXTO (proporcao 1fr / 2fr, altura igual a metade da secao 1)*/
+.secao-dois {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 55px;
+    align-items: stretch;
+    padding: 0 40px 50px 40px;
+}
+
+.imagem-dois {
+    background-color: #d0d0d0;
+    min-height: 230px;
+}
+
+.imagem-dois img {
+    width: 100%;
+    height: 100%;
+    min-height: 230px;
+    object-fit: cover;
+}
+
+.texto-dois {
+    background-color: #1a2a6c;
+    color: #ffffff;
+    padding: 24px 30px;
+    min-height: 230px;
+}
+
+.texto-dois h2 {
+    font-size: 1rem;
+    color: #cc1f1f;
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+
+.texto-dois h2:first-child {
+    margin-top: 0;
+}
+
+.texto-dois p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #111111;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 24px 40px;
+}
+
+footer p {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+footer p:first-child {
+    font-family: 'Krona One', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+}
+

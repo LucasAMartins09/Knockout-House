@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Knockout House - Pedidos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Khula:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_carrinho.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <img src="12704.png" alt="Logo Knockout House">
+        <div class="menu">
+            <a href="index.html">HOME</a>
+            <a href="quem_somos.html">ABOUT US</a>
+            <a href="produtos.html">PRODUCTS</a>
+            <a href="busca.html">SEARCH</a>
+            <a href="contato.html">CONTACT</a>
+            <a href="cadastro.html">REGISTER</a>
+            <a href="pedidos.html">ORDERS</a>
+        </div>
+    </header>
+
+    <!-- Conteudo principal -->
+    <main>
+
+        <!-- Titulo da pagina -->
+        <section class="titulo-pagina">
+            <h1>Meu Carrinho</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+
+        <!-- Lista de produtos do carrinho -->
+        <section class="carrinho">
+
+            <!-- Produto 1 -->
+            <div class="item-carrinho">
+                <div class="imagem-item">
+                    <img src="https://cdn.awsli.com.br/1709/1709525/produto/76989298/maximum_prd_b-363-px3s1rixmo.jpg" alt="Luva Profissional Knockout Pro">
+                </div>
+                <div class="info-item">
+                    <h3>Luva Profissional Knockout Pro</h3>
+                    <p class="descricao-item">Luva de boxe em couro sintético, ideal para treinos e competições.</p>
+                    <p class="preco-item">R$ 249,90</p>
+                    <div class="linha-quantidade">
+                        <label for="qtd1">Quantidade:</label>
+                        <input type="number" id="qtd1" value="1" min="1">
+                    </div>
+                    <p class="subtotal-item">Subtotal: R$ 249,90</p>
+                    <button class="botao-vermelho">Remover</button>
+                </div>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="item-carrinho">
+                <div class="imagem-item">
+                    <img src="https://cdn.awsli.com.br/2500x2500/1709/1709525/produto/101116781/b371ccfc7e.jpg" alt="Bandagem Elástica">
+                </div>
+                <div class="info-item">
+                    <h3>Bandagem Elástica</h3>
+                    <p class="descricao-item">Bandagem elástica para proteção das mãos durante o treino.</p>
+                    <p class="preco-item">R$ 39,90</p>
+                    <div class="linha-quantidade">
+                        <label for="qtd2">Quantidade:</label>
+                        <input type="number" id="qtd2" value="2" min="1">
+                    </div>
+                    <p class="subtotal-item">Subtotal: R$ 79,80</p>
+                    <button class="botao-vermelho">Remover</button>
+                </div>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="item-carrinho">
+                <div class="imagem-item">
+                    <img src="https://cdn.awsli.com.br/1709/1709525/produto/255898645/capacete-de-muay-thai__maximum-boxing__01-noqa8eg6th.jpg" alt="Capacete de Boxe">
+                </div>
+                <div class="info-item">
+                    <h3>Capacete de Boxe</h3>
+                    <p class="descricao-item">Capacete acolchoado para proteção durante o treino de sparring.</p>
+                    <p class="preco-item">R$ 249,90</p>
+                    <div class="linha-quantidade">
+                        <label for="qtd3">Quantidade:</label>
+                        <input type="number" id="qtd3" value="1" min="1">
+                    </div>
+                    <p class="subtotal-item">Subtotal: R$ 249,90</p>
+                    <button class="botao-vermelho">Remover</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Resumo do pedido -->
+        <section class="resumo-pedido">
+            <h2>Resumo do Pedido</h2>
+            <p>Total de produtos: 3</p>
+            <p>Valor dos produtos: R$ 579,60</p>
+            <p>Frete: R$ 20,00</p>
+            <p class="total-geral">Total: R$ 599,60</p>
+
+            <a href="#" class="botao-vermelho botao-finalizar">Finalizar Compra</a>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>Knockout House</p>
+        <p>2026 — Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>

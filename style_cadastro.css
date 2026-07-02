@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+h1, h2, h3 {
+    font-family: 'Krona One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+header {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-bottom: 3px solid #1a2a6c;
+    padding: 10px 40px;
+}
+
+header img {
+    width: 130px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.menu a {
+    font-family: 'Krona One', sans-serif;
+    font-size: 0.75rem;
+    color: #1a2a6c;
+}
+
+.menu a:hover {
+    color: #cc1f1f;
+}
+
+/*BOTÕES*/
+.botao-vermelho {
+    display: inline-block;
+    background-color: #cc1f1f;
+    color: #ffffff;
+    font-family: 'Krona One', sans-serif;
+    font-size: 0.85rem;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*TITULO DA PAGINA*/
+.titulo-pagina {
+    text-align: center;
+    padding: 50px 40px 30px 40px;
+}
+
+.titulo-pagina h1 {
+    font-size: 1.6rem;
+    color: #1a2a6c;
+    margin-bottom: 12px;
+}
+
+.titulo-pagina p {
+    font-size: 0.95rem;
+    color: #555555;
+}
+
+/*FORMULARIO DE CADASTRO*/
+.formulario {
+    display: grid;
+    justify-content: center;
+    padding: 40px 40px 60px 40px;
+    background-color: #f4f4f4;
+}
+
+.form-cadastro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 660px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo label {
+    font-size: 0.85rem;
+    color: #1a2a6c;
+    font-weight: 600;
+}
+
+.campo input {
+    padding: 12px;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-family: 'Khula', sans-serif;
+    font-size: 0.9rem;
+}
+
+.form-cadastro button {
+    grid-column: 1 / 3;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #111111;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 24px 40px;
+}
+
+footer p {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+footer p:first-child {
+    font-family: 'Krona One', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
